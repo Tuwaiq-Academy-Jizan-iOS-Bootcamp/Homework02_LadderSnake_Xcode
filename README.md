@@ -19,4 +19,4 @@ You need to undersatand those step below :
 * Drag and drop your view in the story boad
 * Need to bind your view with your code (button and Image)
 * Use "control + Touch" button to see the blue link
-* Need to use conditionals, variable
+* Need to use conditionals, variables, function... 
