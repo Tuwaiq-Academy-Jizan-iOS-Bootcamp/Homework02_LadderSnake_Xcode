@@ -13,3 +13,9 @@ With what you learn, you need to simulate the roll Dice action in our game Ladde
 
 <img width="389" alt="Screenshot 2021-10-14 at 16 18 28" src="https://user-images.githubusercontent.com/6766037/137325250-6c9ef131-ab6f-4645-83e4-2911582ccd44.png">
 
+### Ressources
+
+You need to undersatand those step below : 
+* Drag and drop your view in the story boad
+* Need to bind your view with your code (button and Image)
+* Need to use conditionals, variable
