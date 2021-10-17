@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F81E7E0C271A43D300686BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E7E0B271A43D300686BD8 /* AppDelegate.swift */; };
+		F81E7E0E271A43D300686BD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E7E0D271A43D300686BD8 /* SceneDelegate.swift */; };
+		F81E7E10271A43D300686BD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E7E0F271A43D300686BD8 /* ViewController.swift */; };
+		F81E7E13271A43D300686BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81E7E11271A43D300686BD8 /* Main.storyboard */; };
+		F81E7E15271A43D500686BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81E7E14271A43D500686BD8 /* Assets.xcassets */; };
+		F81E7E18271A43D500686BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81E7E16271A43D500686BD8 /* LaunchScreen.storyboard */; };
+		F81E7E23271A43D500686BD8 /* Zhoor_HussainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E7E22271A43D500686BD8 /* Zhoor_HussainTests.swift */; };
+		F81E7E2D271A43D500686BD8 /* Zhoor_HussainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E7E2C271A43D500686BD8 /* Zhoor_HussainUITests.swift */; };
+		F81E7E2F271A43D500686BD8 /* Zhoor_HussainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E7E2E271A43D500686BD8 /* Zhoor_HussainUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F81E7E1F271A43D500686BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F81E7E00271A43D300686BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81E7E07271A43D300686BD8;
+			remoteInfo = "Zhoor Hussain";
+		};
+		F81E7E29271A43D500686BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F81E7E00271A43D300686BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81E7E07271A43D300686BD8;
+			remoteInfo = "Zhoor Hussain";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F81E7E08271A43D300686BD8 /* Zhoor Hussain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zhoor Hussain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81E7E0B271A43D300686BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F81E7E0D271A43D300686BD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F81E7E0F271A43D300686BD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F81E7E12271A43D300686BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F81E7E14271A43D500686BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F81E7E17271A43D500686BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F81E7E19271A43D500686BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81E7E1E271A43D500686BD8 /* Zhoor HussainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zhoor HussainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81E7E22271A43D500686BD8 /* Zhoor_HussainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zhoor_HussainTests.swift; sourceTree = "<group>"; };
+		F81E7E28271A43D500686BD8 /* Zhoor HussainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zhoor HussainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81E7E2C271A43D500686BD8 /* Zhoor_HussainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zhoor_HussainUITests.swift; sourceTree = "<group>"; };
+		F81E7E2E271A43D500686BD8 /* Zhoor_HussainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zhoor_HussainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F81E7E05271A43D300686BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81E7E1B271A43D500686BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81E7E25271A43D500686BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F81E7DFF271A43D300686BD8 = {
+			isa = PBXGroup;
+			children = (
+				F81E7E0A271A43D300686BD8 /* Zhoor Hussain */,
+				F81E7E21271A43D500686BD8 /* Zhoor HussainTests */,
+				F81E7E2B271A43D500686BD8 /* Zhoor HussainUITests */,
+				F81E7E09271A43D300686BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F81E7E09271A43D300686BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81E7E08271A43D300686BD8 /* Zhoor Hussain.app */,
+				F81E7E1E271A43D500686BD8 /* Zhoor HussainTests.xctest */,
+				F81E7E28271A43D500686BD8 /* Zhoor HussainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F81E7E0A271A43D300686BD8 /* Zhoor Hussain */ = {
+			isa = PBXGroup;
+			children = (
+				F81E7E0B271A43D300686BD8 /* AppDelegate.swift */,
+				F81E7E0D271A43D300686BD8 /* SceneDelegate.swift */,
+				F81E7E0F271A43D300686BD8 /* ViewController.swift */,
+				F81E7E11271A43D300686BD8 /* Main.storyboard */,
+				F81E7E14271A43D500686BD8 /* Assets.xcassets */,
+				F81E7E16271A43D500686BD8 /* LaunchScreen.storyboard */,
+				F81E7E19271A43D500686BD8 /* Info.plist */,
+			);
+			path = "Zhoor Hussain";
+			sourceTree = "<group>";
+		};
+		F81E7E21271A43D500686BD8 /* Zhoor HussainTests */ = {
+			isa = PBXGroup;
+			children = (
+				F81E7E22271A43D500686BD8 /* Zhoor_HussainTests.swift */,
+			);
+			path = "Zhoor HussainTests";
+			sourceTree = "<group>";
+		};
+		F81E7E2B271A43D500686BD8 /* Zhoor HussainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F81E7E2C271A43D500686BD8 /* Zhoor_HussainUITests.swift */,
+				F81E7E2E271A43D500686BD8 /* Zhoor_HussainUITestsLaunchTests.swift */,
+			);
+			path = "Zhoor HussainUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F81E7E07271A43D300686BD8 /* Zhoor Hussain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81E7E32271A43D500686BD8 /* Build configuration list for PBXNativeTarget "Zhoor Hussain" */;
+			buildPhases = (
+				F81E7E04271A43D300686BD8 /* Sources */,
+				F81E7E05271A43D300686BD8 /* Frameworks */,
+				F81E7E06271A43D300686BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zhoor Hussain";
+			productName = "Zhoor Hussain";
+			productReference = F81E7E08271A43D300686BD8 /* Zhoor Hussain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F81E7E1D271A43D500686BD8 /* Zhoor HussainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81E7E35271A43D500686BD8 /* Build configuration list for PBXNativeTarget "Zhoor HussainTests" */;
+			buildPhases = (
+				F81E7E1A271A43D500686BD8 /* Sources */,
+				F81E7E1B271A43D500686BD8 /* Frameworks */,
+				F81E7E1C271A43D500686BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F81E7E20271A43D500686BD8 /* PBXTargetDependency */,
+			);
+			name = "Zhoor HussainTests";
+			productName = "Zhoor HussainTests";
+			productReference = F81E7E1E271A43D500686BD8 /* Zhoor HussainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F81E7E27271A43D500686BD8 /* Zhoor HussainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81E7E38271A43D500686BD8 /* Build configuration list for PBXNativeTarget "Zhoor HussainUITests" */;
+			buildPhases = (
+				F81E7E24271A43D500686BD8 /* Sources */,
+				F81E7E25271A43D500686BD8 /* Frameworks */,
+				F81E7E26271A43D500686BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F81E7E2A271A43D500686BD8 /* PBXTargetDependency */,
+			);
+			name = "Zhoor HussainUITests";
+			productName = "Zhoor HussainUITests";
+			productReference = F81E7E28271A43D500686BD8 /* Zhoor HussainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F81E7E00271A43D300686BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F81E7E07271A43D300686BD8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F81E7E1D271A43D500686BD8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F81E7E07271A43D300686BD8;
+					};
+					F81E7E27271A43D500686BD8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F81E7E07271A43D300686BD8;
+					};
+				};
+			};
+			buildConfigurationList = F81E7E03271A43D300686BD8 /* Build configuration list for PBXProject "Zhoor Hussain" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F81E7DFF271A43D300686BD8;
+			productRefGroup = F81E7E09271A43D300686BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F81E7E07271A43D300686BD8 /* Zhoor Hussain */,
+				F81E7E1D271A43D500686BD8 /* Zhoor HussainTests */,
+				F81E7E27271A43D500686BD8 /* Zhoor HussainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F81E7E06271A43D300686BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81E7E18271A43D500686BD8 /* LaunchScreen.storyboard in Resources */,
+				F81E7E15271A43D500686BD8 /* Assets.xcassets in Resources */,
+				F81E7E13271A43D300686BD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81E7E1C271A43D500686BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81E7E26271A43D500686BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F81E7E04271A43D300686BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81E7E10271A43D300686BD8 /* ViewController.swift in Sources */,
+				F81E7E0C271A43D300686BD8 /* AppDelegate.swift in Sources */,
+				F81E7E0E271A43D300686BD8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81E7E1A271A43D500686BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81E7E23271A43D500686BD8 /* Zhoor_HussainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81E7E24271A43D500686BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81E7E2D271A43D500686BD8 /* Zhoor_HussainUITests.swift in Sources */,
+				F81E7E2F271A43D500686BD8 /* Zhoor_HussainUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F81E7E20271A43D500686BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81E7E07271A43D300686BD8 /* Zhoor Hussain */;
+			targetProxy = F81E7E1F271A43D500686BD8 /* PBXContainerItemProxy */;
+		};
+		F81E7E2A271A43D500686BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81E7E07271A43D300686BD8 /* Zhoor Hussain */;
+			targetProxy = F81E7E29271A43D500686BD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F81E7E11271A43D300686BD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81E7E12271A43D300686BD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F81E7E16271A43D500686BD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81E7E17271A43D500686BD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F81E7E30271A43D500686BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F81E7E31271A43D500686BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F81E7E33271A43D500686BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zhoor Hussain/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-Hussain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F81E7E34271A43D500686BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zhoor Hussain/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-Hussain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F81E7E36271A43D500686BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-HussainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhoor Hussain.app/Zhoor Hussain";
+			};
+			name = Debug;
+		};
+		F81E7E37271A43D500686BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-HussainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhoor Hussain.app/Zhoor Hussain";
+			};
+			name = Release;
+		};
+		F81E7E39271A43D500686BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-HussainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zhoor Hussain";
+			};
+			name = Debug;
+		};
+		F81E7E3A271A43D500686BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-HussainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zhoor Hussain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F81E7E03271A43D300686BD8 /* Build configuration list for PBXProject "Zhoor Hussain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81E7E30271A43D500686BD8 /* Debug */,
+				F81E7E31271A43D500686BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81E7E32271A43D500686BD8 /* Build configuration list for PBXNativeTarget "Zhoor Hussain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81E7E33271A43D500686BD8 /* Debug */,
+				F81E7E34271A43D500686BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81E7E35271A43D500686BD8 /* Build configuration list for PBXNativeTarget "Zhoor HussainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81E7E36271A43D500686BD8 /* Debug */,
+				F81E7E37271A43D500686BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81E7E38271A43D500686BD8 /* Build configuration list for PBXNativeTarget "Zhoor HussainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81E7E39271A43D500686BD8 /* Debug */,
+				F81E7E3A271A43D500686BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F81E7E00271A43D300686BD8 /* Project object */;
+}
