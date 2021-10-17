@@ -1,13 +1,13 @@
 //
-//  My_First_AppUITestsLaunchTests.swift
-//  My First AppUITests
+//  MyFirstAppUITestsLaunchTests.swift
+//  MyFirstAppUITests
 //
-//  Created by Bushra Barakat on 10/03/1443 AH.
+//  Created by Bushra Barakat on 11/03/1443 AH.
 //
 
 import XCTest
 
-class My_First_AppUITestsLaunchTests: XCTestCase {
+class MyFirstAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
